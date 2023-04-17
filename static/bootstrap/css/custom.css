@@ -1,0 +1,130 @@
+/* Banner section */
+#banner {
+  background-color: #F8F9FA;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* About section */
+#about {
+  background-color: #FFFFFF;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* Projects section */
+#projects {
+  background-color: #F8F9FA;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* Contact section */
+#contact {
+  background-color: #FFFFFF;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: transparent;
+  padding: 20px 0;
+  transition: all 0.5s;
+}
+
+.navbar-brand {
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #FFFFFF;
+}
+
+/* Navbar styles when scrolled */
+.navbar-scrolled {
+  background-color: #343A40;
+  padding: 10px 0;
+}
+
+.navbar-scrolled .navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-scrolled .navbar-light .navbar-nav .nav-link {
+  color: #FFFFFF;
+}
+
+/* Banner styles */
+#banner h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #b69292;
+}
+
+#banner p {
+  margin-bottom: 40px;
+  color: #FFFFFF;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Project card styles */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  color: #6C757D;
+}
+
+.card-body a {
+  margin-top: 10px;
+}
+
+/* Contact form styles */
+.form-control {
+  border-color: #EDEDED;
+  border-radius: 0;
+  font-size: 16px;
+  color: #6C757D;
+}
+
+.form-control:focus {
+  border-color: #343A40;
+  box-shadow: none;
+}
+
+.form-control::placeholder {
+  color: #A3A3A3;
+}
+
+button {
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #343A40;
+}
+
+button:hover {
+  background-color: #1A2026;
+}
+
+/* Footer styles */
+footer {
+  background-color: #343A40;
+  color: #FFFFFF;
+}
+
+.footer-links a {
+  color: #FFFFFF;
+}
